@@ -1,0 +1,41 @@
+name: notes
+description: "Exact replica of Notes app."
+version: 1.1.0+1020
+
+environment:
+  sdk: ^3.11.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/translations/
+    - assets/packages/appflowy_editor/assets/images/
+    - assets/packages/appflowy_editor/assets/images/clear.svg
+    - assets/packages/appflowy_editor/assets/images/clear_highlight_color.svg
+
+  fonts:
+    - family: pretenda
+      fonts:
+        - asset: assets/fonts/PretendardStd-Light.otf
+          weight: 300
+        - asset: assets/fonts/PretendardStd-Regular.otf
+          weight: 400
+        - asset: assets/fonts/PretendardStd-Medium.otf
+          weight: 500
+        - asset: assets/fonts/PretendardStd-SemiBold.otf
+          weight: 600
+        - asset: assets/fonts/PretendardStd-Bold.otf
+          weight: 700
